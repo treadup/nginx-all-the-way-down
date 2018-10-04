@@ -30,6 +30,13 @@ api and the web app are available on the same hostname and port.
 This way we do not have to worry about CORS when the app talks
 to the API.
 
+There is no docker command for this container. Instead you have
+to use docker-compose.
+
+## Using docker-compose
+To spin up the entire stack use the docker-compose up command.
+
+    docker-compose up
 
 ## References
 [https://hub.docker.com/_/nginx/](https://hub.docker.com/_/nginx/)
